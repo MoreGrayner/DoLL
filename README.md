@@ -14,6 +14,20 @@
 * ### Supported Minecraft Versions
   * 1.21
 
+`설정`
+```Kotlin
+class YourPlugin : JavaPlugin() {
+    override fun onEnable() {
+        initDoLL()
+    }
+
+    override fun onDisable() {
+        shutDownDoLL()
+    }
+}
+```
+
+
 * ### Implementation
   * ProtocoLib 5.3.0
   * Kotlin Runtime
